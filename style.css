@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+  .body-div {
+    max-width: 770px;
+    margin: 5% auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 1.5rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  h1 {
+    padding: 10px 0px;
+    font-family: Young Serif;
+    font-weight: 400;
+  }
+  h3 {
+    padding: 15px 0px;
+    color: hsl(14, 45%, 36%);
+  }
+  h4 {
+    color: hsl(332, 51%, 32%);
+    padding: 10px;
+  }
+
+  .text-container ul,
+  .text-container ol {
+    padding-left: 25px;
+  }
+  .text-container li {
+    padding-left: 8px;
+  }
+  li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+  span {
+    color: hsl(24, 5%, 18%);
+    ;
+  }
+  .preparation-div {
+    background-color: hsl(330, 100%, 98%);
+    margin: 0px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+  }
+  .preparation-div ul {
+    padding-left: 25px;
+  }
+  hr {
+    margin-top: 15px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tr {
+    border-bottom: 1px solid rgb(204, 204, 200);
+  }
+  td {
+    padding: 10px;
+    /* padding-left: 30px; */
+  }
+  td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  @media only screen and (max-width: 375px) {
+    .body-div {
+      margin: 0;
+      padding: 0;
+    }
+  img {
+    max-width: 100%;
+    border-radius: 0%;
+  }
+  h1 {
+    padding: 10px;
+  }
+  .text-container,
+  .text-container ul,
+  .text-container ol {
+    padding-left: 20px;
+  padding-right: 10px;
+  }
+    .preparation-div {
+      margin-top: 15px;
+      margin-right: 20px;
+    padding-right: 30PX;
+    border-radius: 1rem;
+  }
+  .preparation-div ul {
+    padding-left: 35px;
+  }
+  .attribution {
+    display: none;
+  }
+  }
